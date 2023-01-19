@@ -1,4 +1,4 @@
 # userRegister-REACT
 
-cd backend : npm run server
-cd frontend : npm start
+<p>cd backend : npm run server</p>
+<p>cd frontend : npm start</p>

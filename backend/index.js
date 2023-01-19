@@ -3,14 +3,12 @@ const app = express();
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', true)
 const cors = require('cors');
-const multer = require('multer');
 const cookieParser = require('cookie-parser');
 const route = require('./route');
 require("dotenv").config();
 
 app.use(express.json())
 app.use(cors())
-app.use(multer().any())
 app.use(cookieParser())
 app.use("/", route)
 

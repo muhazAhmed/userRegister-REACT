@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+<p>cd backend : npm run server</p>
+<p>cd frontend : npm start</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
